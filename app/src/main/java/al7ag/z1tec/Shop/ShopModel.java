@@ -8,8 +8,6 @@ public class ShopModel
 {
 String ID;
 String Name;
-
-
 String Qty;
 String Mobile;
 String Location;
