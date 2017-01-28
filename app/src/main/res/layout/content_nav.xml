@@ -13,4 +13,13 @@
     tools:context="al7ag.z1tec.nav"
     tools:showIn="@layout/app_bar_nav">
 
+    <Button
+        android:text="navvv content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginTop="202dp"
+        android:id="@+id/button2" />
 </RelativeLayout>
