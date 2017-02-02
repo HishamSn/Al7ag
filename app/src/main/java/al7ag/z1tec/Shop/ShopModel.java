@@ -6,12 +6,53 @@ package al7ag.z1tec.Shop;
 
 public class ShopModel
 {
-String ID;
-String Name;
-String Qty;
-String Mobile;
-String Location;
-//int status;
+    private String ID;
+    private String Name;
+    private String Qty;
+    private String Mobile;
+    private String Location;
+    //int status;
+
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getQty() {
+        return Qty;
+    }
+
+    public void setQty(String qty) {
+        Qty = qty;
+    }
+
+    public String getMobile() {
+        return Mobile;
+    }
+
+    public void setMobile(String mobile) {
+        Mobile = mobile;
+    }
+
+    public String getLocation() {
+        return Location;
+    }
+
+    public void setLocation(String location) {
+        Location = location;
+    }
 
 
 
